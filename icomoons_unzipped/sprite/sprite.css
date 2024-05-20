@@ -1,0 +1,46 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.icon-Ellipse-facebook {
+  width: 32px;
+  height: 32px;
+  background-position: 0 0;
+}
+.icon-Ellipse-insta {
+  width: 32px;
+  height: 32px;
+  background-position: -48px 0;
+}
+.icon-Ellipse-linkedin {
+  width: 32px;
+  height: 32px;
+  background-position: -96px 0;
+}
+.icon-Ellipse-twitter {
+  width: 32px;
+  height: 32px;
+  background-position: -144px 0;
+}
+.icon-Icon-1 {
+  width: 75px;
+  height: 32px;
+  background-position: -192px 0;
+}
+.icon-Icon-2 {
+  width: 75px;
+  height: 32px;
+  background-position: -288px 0;
+}
+.icon-Icon-3 {
+  width: 75px;
+  height: 32px;
+  background-position: -384px 0;
+}
+.icon-Icon-4 {
+  width: 75px;
+  height: 32px;
+  background-position: -480px 0;
+}
+
