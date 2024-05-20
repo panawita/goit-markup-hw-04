@@ -39,11 +39,6 @@ ul {
 .studio {
   color: #404bbf;
 }
-.top-nav-link:hover,
-.top-nav-link:focus,
-.top-nav-link:active {
-  color: #404bbf;
-}
 .studio::after {
   content: "";
   width: 100%;
@@ -53,6 +48,11 @@ ul {
   bottom: -1px;
   background-color: #404bbf;
   border-radius: 2px;
+}
+.top-nav-link:hover,
+.top-nav-link:focus,
+.top-nav-link:active {
+  color: #404bbf;
 }
 
 .contact {
@@ -297,4 +297,19 @@ img {
 }
 .p-footer {
   max-width: 264px;
+}
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  width: 264px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+}
+svg {
+  width: 64px;
+  height: 64px;
 }
